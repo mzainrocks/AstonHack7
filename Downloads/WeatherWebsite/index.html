@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="currentInfo">
+
+            <div class="dateContainer">
+                <div class="time" id="time">
+                    12:30 <span id="amORpm">PM</span>
+                </div>
+                <div class="date" id="date">
+                    Monday, 25 May
+                </div>
+                <div class="others" id="weatherInfo">
+                    <div class="weatherItem">
+                        <div>Humidity</div>
+                        <div></div>
+                    </div>
+                    <div class="weatherItem">
+                        <div>Pressure</div>
+                        <div></div>
+                    </div>
+                    <div class="weatherItem">
+                        <div>Wind speed</div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="placeContainer">
+                <div class="timeZone" id="timeZone">Europe/Birmingham</div>
+                <div id="country" class="country">UK</div>
+            </div>
+        </div>
+
+    </div>
+    <div class="futureForecast">
+        <div class="today" id="currentTemp">
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="Weather Icon" class="wIcon">
+            <div class="other">
+                <div class="day">Monday</div>
+                <div class="temp">Night - 25.6&#176;C </div>
+                <div class="temp">Day - 33.6&#176;C </div>
+
+            </div>
+
+        </div>
+        <div class="weatherForecast" id="weatherForecast">
+            <div class="weatherForecastItem">
+                <div class="day">Tue</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="Weather Icon" class="wIcon">
+                <div class="temp">Night - 25.6&#176;C </div>
+                <div class="temp">Day - 33.6&#176;C </div>
+            </div>
+            <div class="weatherForecastItem">
+                <div class="day">Wed</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="Weather Icon" class="wIcon">
+                <div class="temp">Night - 25.6&#176;C </div>
+                <div class="temp">Day - 33.6&#176;C </div>
+            </div>
+            <div class="weatherForecastItem">
+                <div class="day">Thu</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="Weather Icon" class="wIcon">
+                <div class="temp">Night - 25.6&#176;C </div>
+                <div class="temp">Day - 33.6&#176;C </div>
+            </div>
+            <div class="weatherForecastItem">
+                <div class="day">Fri</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="Weather Icon" class="wIcon">
+                <div class="temp">Night - 25.6&#176;C </div>
+                <div class="temp">Day - 33.6&#176;C </div>
+            </div>
+            <div class="weatherForecastItem">
+                <div class="day">Sat</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="Weather Icon" class="wIcon">
+                <div class="temp">Night - 25.6&#176;C </div>
+                <div class="temp">Day - 33.6&#176;C </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
